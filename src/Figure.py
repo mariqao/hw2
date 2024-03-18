@@ -17,7 +17,7 @@ class Figure(ABC):
     def get_perimeter(self):
         pass
 
-square = Square(10) # Так создаем квадрат со стороной 10
+square = Square(10) 
 print(square.get_area())
 triangle1 = Triangle(13, 14, 15)
 print(triangle1.get_area())
