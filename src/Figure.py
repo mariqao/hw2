@@ -19,6 +19,6 @@ class Figure(ABC):
 
 square = Square(10) 
 print(square.get_area())
-triangle1 = Triangle(13, 14, 15)
+triangle1 = Triangle(13, 14, 16)
 print(triangle1.get_area())
 print(triangle1.get_perimeter())
