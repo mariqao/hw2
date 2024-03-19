@@ -12,7 +12,7 @@ class Circle():
 
     def add_area(self, other_figure):
         if not isinstance(other_figure, Circle):
-            raise ValueError("Нужен класс Rrectangle или дочерний")
+            raise ValueError("Нужен класс Rectangle или дочерний")
         return self.get_area() + other_figure.get_area()
 
 
