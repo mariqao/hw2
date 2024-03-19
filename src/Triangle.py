@@ -17,6 +17,6 @@ class Triangle():
 
     def add_area(self, other_figure: str):
         if not isinstance(other_figure, Triangle):
-            raise ValueError("Нужен класс Rectangle или дочерний")
+            raise ValueError("Нужен класс Rectangle или дочерний.")
         return self.get_area() + Square.get_area()
 
